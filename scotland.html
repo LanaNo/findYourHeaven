@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>findYourHEAVEN</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-logo-text float-left">
+                <a class="site-logo-text" href="index.html"><strong>findYourHEAVEN</strong></a>
+            </h1>
+            <div class="site-header__menu group topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About us</a>
+                <a href="england.html">England</a>
+                <a class="active" href="scotland.html">Scotland</a>
+                <a href="ireland.html">Ireland</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+            </div>
+            <!--navigation bar-->
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += "responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+
+            </script>
+        </div>
+    </header>
+
+    <div class="page-banner">
+        <div class="page-banner__bg-image" style="background-image: url('images/sc-collage%20(1).jpg');"></div>
+        <h1 class="about">Scotland</h1>
+    </div>
+
+    <div class="hero-slider-slide">
+        <div data-glide-el="track" class="glide__track">
+            <div class="glide__slides">
+
+                <div class="pcontent ">
+                    <p>
+                        Scotland is a country that I would recommend to the people that have some occupation and skill set that is really in demand. Scottish people are cheerful and fun, but they are less direct than Irish about what they really think about you.
+                    </p>
+                    <p>
+                        Employment prospects depend on your occupation, skills, experience and so on. Finding a nice job can be challenging unless you are in some demanding profession, especially out of Glasgow or Edinburgh. Zero-hours contracts are big problems here. They are not something positive and this type of employment is not really good for anyone else except greedy employers.
+                    </p>
+                    <p>
+                        From my experience, Scotland is a great choice for people planning to work in the oil and gas sector, as Aberdeen is one of the main cities for the oil and gas industry in Europe.
+                    </p>
+                    <p>
+                        Scotland has fewer job opportunities than Ireland, so there is almost no housing crisis. Finding a room/flat/house is often straightforward and pretty cheap compared to other countries in Western Europe.
+                    </p>
+                    <p>
+                        The biggest problem with Scotland and the UK generally is healthcare, as the NHS is pretty bad. Honestly, I don’t know why Brits adore NHS so much, as this system is completely broken and one of the worst in Europe. Even Eastern European countries have better health systems than the UK has. You often need to pay for private treatments in the UK, as the waiting lists are too long. Childcare is also too expensive.
+                    </p>
+                    <p>
+                        We are happy with our life here, but we have plans to move away soon because we can’t stand the Scottish weather :D, which is worse than in any country where we lived. We’re from southern Europe, so the climate in Scotland, particularly on the North-East coast, is too much for us to deal with.
+                    </p>
+                    <p>
+                        <strong>Your admin :) </strong>
+                    </p>
+                    <p>
+                        <strong>If you want to share your experience in Scotland or any other country please contact us via <a class="con-a" href="contact-form.html">Contact Form</a> or <a class="con-a" href="https://www.facebook.com/Find-Your-Heaven-108204748526371">Facebook</a>.</strong>
+                    </p>
+                    <p><strong>To find more about what Scotland looks like, check our gallery below.</strong></p>
+                </div>
+
+                <h1 class="gal-h1">Gallery</h1>
+                <!--GALLERY CODE -->
+                <!-- Container for the image gallery -->
+                <div class="container gcontainer">
+
+                    <!-- Full-width images with number text -->
+
+                    <div class="gSlides">
+                        <div class="number">1 / 8</div>
+                        <img src="images/edibnurgh.jpg" style="width:100%" alt="Edinburgh">
+                    </div>
+
+                    <div class="gSlides">
+                        <div class="number">2 / 8</div>
+                        <img src="images/lake-loch-ness-scotland-uk_134785-13949.jpg" style="width:100%" alt="Loch Ness">
+                    </div>
+
+                    <div class="gSlides">
+                        <div class="number">3 / 8</div>
+                        <img src="images/glasgow.jpg" style="width:100%" alt="Glasgow">
+                    </div>
+
+                    <div class="gSlides">
+                        <div class="number">4 / 8</div>
+                        <img src="images/isle-skye.jpg" style="width:100%" alt="Isle of Skye">
+                    </div>
+
+                    <div class="gSlides">
+                        <div class="number">5 / 8</div>
+                        <img src="images/bridge.jpg" style="width:100%" alt="Hogwarts express">
+                    </div>
+
+                    <div class="gSlides">
+                        <div class="number">6 / 8</div>
+                        <img src="images/devils-pup.jpg" style="width:100%" alt="Devil's pulpit">
+                    </div>
+
+                    <div class="gSlides">
+                        <div class="number">7 / 8</div>
+                        <img src="images/dunrobin.jpg" style="width:100%" alt="Dunrobin castle">
+                    </div>
+
+                    <div class="gSlides">
+                        <div class="number">8 / 8</div>
+                        <img src="images/campsites-in-ayrshire-and-arran.jpg" style="width:100%" alt="Culzean castle">
+                    </div>
+
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Image text -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <!-- Thumbnail images -->
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="images/edibnurgh.jpg" style="width:100%" onclick="currentSlide(1)" alt="Edinburgh">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/lake-loch-ness-scotland-uk_134785-13949.jpg" style="width:100%" onclick="currentSlide(2)" alt="Loch Ness">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/glasgow.jpg" style="width:100%" onclick="currentSlide(3)" alt="Glasgow">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/isle-skye.jpg" style="width:100%" onclick="currentSlide(4)" alt="Isle of Skye">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/bridge.jpg" style="width:100%" onclick="currentSlide(5)" alt="Hogwarts express">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/devils-pup.jpg" style="width:100%" onclick="currentSlide(6)" alt="Devil's pulpit">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/dunrobin.jpg" style="width:100%" onclick="currentSlide(7)" alt="Dunrobin castle">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/campsites-in-ayrshire-and-arran.jpg" style="width:100%" onclick="currentSlide(8)" alt="Culzean castle">
+                        </div>
+
+
+                    </div>
+                </div>
+                <!--JS SCRIPT-->
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    // Next/previous controls
+                    function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                    }
+
+                    // Thumbnail image controls
+                    function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                        let i;
+                        let slides = document.getElementsByClassName("gSlides");
+                        let dots = document.getElementsByClassName("demo");
+                        let captionText = document.getElementById("caption");
+                        if (n > slides.length) {
+                            slideIndex = 1
+                        }
+                        if (n < 1) {
+                            slideIndex = slides.length
+                        }
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                        captionText.innerHTML = dots[slideIndex - 1].alt;
+                    }
+
+                </script>
+            </div>
+        </div>
+
+
+               <footer class="site-footer">
+                    <div class="site-footer__inner container container--narrow">
+                        <div class="group">
+                            <div class="site-footer__col-one">
+                                <h1 class="company-logo-text company-logo-text--alt-color">
+                                    <img class="logo logo-photo" src="images/logo.png" height="120px" width="120px">
+                                </h1>
+                                <p class="p-fot-moto">FIND YOUR PERFECT PLACE</p>
+                            </div>
+
+                            <div class="site-footer__col-two-three-group">
+                                <div class="site-footer__col-two">
+                                    <h3 class="headline headline--medium">Explore</h3>
+                                    <nav class="nav-list">
+                                        <ul class="fot">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about-us.html">About us</a></li>
+                                            <li><a href="england.html">England</a></li>
+                                            <li><a class="active" href="scotland.html">Scotland</a></li>
+                                            <li><a href="ireland.html">Ireland</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                                <div class="site-footer__col-three">
+                                    <h3 class="headline headline--medium">Privacy</h3>
+                                    <nav class="nav-list">
+                                        <ul class="fot">
+                                            <li><a href="privacy.html">Privacy</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+
+                            <div class="site-footer__col-four">
+                                <h3 class="headline headline--medium">Connect With Us</h3>
+                                <nav class="nav-list">
+                                    <ul class="fot">
+                                        <li><a href="contact-form.html">Contact form</a></li>
+                                    </ul>
+                                </nav>
+                                <nav>
+                                    <ul class="min-list social-icons-list group">
+                                        <li>
+                                            <a href="https://www.facebook.com/Find-Your-Heaven-108204748526371/?ref=page_internal" class="fa fa-facebook"></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+
+                        <h7 class="author-headline--small">Lana Novak © 2022</h7>
+                    </div>
+
+                </footer>
+
+</body>
+
+</html>
+
